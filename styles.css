@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetButton {
+    width: 100px;
+}
+
+#containerMain {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    background-color: gray;
+    justify-content: center;
+
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    flex: 1 1 0%;
+
+      
+}
+
+.grid {
+    padding: 5px;
+    flex: 1 1 0%;
+} 
+
+.hover-grid {
+    background-color: purple;
+}

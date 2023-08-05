@@ -3,37 +3,47 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: rgb(238, 50, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #resetButton {
-    width: 100px;
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 99);
+    border: 2px solid cyan;
+    border-radius: 8px;
+    color: rgb(238, 50, 255);
+    font-weight: bold;
 }
 
 #containerMain {
     display: flex;
     width: 600px;
     height: 600px;
-    border-style: solid;
     background-color: gray;
     justify-content: center;
-
+    border-style: outset;
+    border-width: 5px;
+    border-color: cyan;
+    border-radius: 8px;
     
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: darkgray;
     flex: 1 1 0%;
 
       
 }
 
 .grid {
-    padding: 5px;
     flex: 1 1 0%;
 } 
 
 .hover-grid {
-    background-color: purple;
+    background-color: rgb(238, 50, 255);
 }

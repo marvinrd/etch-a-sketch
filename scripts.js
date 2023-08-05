@@ -28,7 +28,13 @@ const createGrids = function () {
   const grids = document.querySelectorAll(".grid");
   grids.forEach((node) => {
     node.addEventListener("mouseover", function () {
-      node.classList.add("hover-grid");
+      //node.classList.add("hover-grid");
+      node.setAttribute(
+        "style",
+        `background-color:rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(
+          Math.random() * 256
+        )}, ${Math.floor(Math.random() * 256)})`
+      );
     });
   });
 };
